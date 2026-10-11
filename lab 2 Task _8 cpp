@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char small;
+    cout << "Enter small letter: ";
+    cin >> small;
+
+    char capital = small - 32; // ASCII trick: a=97, A=65, diff 32
+    cout << "Capital: " << capital;
+
+    return 0;
+}
